@@ -1,97 +1,40 @@
-# 📊 Vendor Performance Analysis
+# Vendor Performance Analysis
 
-## 📌 Project Overview
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
-This project analyzes vendor performance and inventory efficiency using data analytics techniques. The objective is to identify inefficiencies in pricing, inventory turnover, and vendor contribution to improve profitability and decision-making.
+## Overview
 
----
+This project analyzes the performance of various vendors, helping businesses make informed decisions when partnering with suppliers. The analysis includes metrics such as delivery times, quality ratings, and cost-effectiveness.
 
-## 🎯 Business Problem
+## Features
+- Comprehensive vendor performance metrics
+- Interactive data visualizations
+- Customizable reports
 
-Effective inventory and sales management are critical for optimizing profitability. This project focuses on:
+## Installation
 
-* Identifying underperforming brands requiring pricing adjustments
-* Determining top vendors contributing to sales and profit
-* Analyzing bulk purchasing impact on cost
-* Evaluating inventory turnover and inefficiencies
-
----
-
-## 🛠️ Tech Stack
-
-* Python
-* Pandas
-* NumPy
-* Matplotlib / Seaborn
-* Jupyter Notebook
-
----
-
-## 📂 Project Structure
+To get started with this project, clone the repository and install the necessary dependencies:
 
 ```bash
-vendor-performance-analysis/
-│── data/
-│── notebooks/
-│── outputs/
-│── report.pdf
-│── README.md
-│── requirements.txt
-```
-
----
-
-## 🔍 Key Analysis Performed
-
-* Data Cleaning and Preprocessing
-* Exploratory Data Analysis (EDA)
-* Correlation Analysis
-* Inventory Turnover Analysis
-* Profit Margin & Vendor Comparison
-* Hypothesis Testing
-
----
-
-## 📊 Key Insights
-
-* Top 10 vendors contribute ~65.69% of total purchases
-* Bulk purchasing reduces unit cost by ~72%
-* Unsold inventory capital is approximately $2.71M
-* Weak correlation between pricing and profit indicates complex pricing dynamics
-* Low-performing vendors have higher margins but lower sales
-
----
-
-## 📈 Business Impact
-
-* Improved vendor selection strategy
-* Optimized pricing and inventory decisions
-* Reduced dependency on limited vendors
-* Identified slow-moving inventory
-
----
-
-## ▶️ How to Run
-
-```bash
-git clone https://github.com/your-username/vendor-performance-analysis.git
+git clone https://github.com/ashwani2004-nih/vendor-performance-analysis.git
 cd vendor-performance-analysis
-pip install -r requirements.txt
-jupyter notebook
 ```
 
----
+## Usage
 
-## 📌 Future Improvements
+After setting up the project, you can run the analysis tool with:
 
-* Build Power BI / Tableau dashboard
-* Add machine learning for vendor prediction
-* Automate reporting system
+```bash
+python analyze.py
+```
 
----
+## Contributing
+If you would like to contribute to this project, please fork the repository and submit a Pull Request. Your contributions are welcome!
 
-## 📧 Contact
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Ashwani Mishra
-BTech - Artificial Intelligence & Data Science
-
+## Contact
+For any inquiries, please reach out to [ashwani2004-nih](https://github.com/ashwani2004-nih).
